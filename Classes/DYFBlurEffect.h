@@ -26,6 +26,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 #import <Accelerate/Accelerate.h>
+#import <CoreGraphics/CoreGraphics.h>
 #import <CoreImage/CoreImage.h>
 
 # ifndef __IPHONE_OS_BLUR_ALLOWED

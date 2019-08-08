@@ -40,32 +40,29 @@
 
 - (UIImage *)blurryImage:(UIImage *)image style:(DYFBlurEffectStyle)style {
     CGFloat blurRadius = 0.f;
-    
     UIColor *tintColor = nil;
     
     switch (style) {
-            
         case DYFBlurEffectLight: {
             blurRadius = 30.f;
-            tintColor = [UIColor colorWithWhite:1.0 alpha:0.3];
+            tintColor  = [UIColor colorWithWhite:1.0 alpha:0.3];
             break;
         }
             
         case DYFBlurEffectExtraLight: {
             blurRadius = 20.f;
-            tintColor = [UIColor colorWithWhite:0.97 alpha:0.82];
+            tintColor  = [UIColor colorWithWhite:0.97 alpha:0.82];
             break;
         }
             
         case DYFBlurEffectDark: {
             blurRadius = 20.f;
-            tintColor = [UIColor colorWithWhite:0.11 alpha:0];
+            tintColor  = [UIColor colorWithWhite:0.11 alpha:0];
             break;
         }
             
         default:
             break;
-            
     }
     
     return [self blurryImage:image blurRadius:blurRadius tintColor:tintColor saturationDeltaFactor:1.8 maskImage:nil];
@@ -73,27 +70,21 @@
 
 - (UIImage *)blurryImage:(UIImage *)image tintColor:(UIColor *)tintColor {
     CGFloat EffectColorAlpha = 0.6;
-    
-    UIColor *effectColor = tintColor;
-    
+    UIColor *effectColor     = tintColor;
     NSInteger componentCount = CGColorGetNumberOfComponents(tintColor.CGColor);
     
     if (componentCount == 2) {
-        
         CGFloat b;
         
         if ([tintColor getWhite:&b alpha:NULL]) {
             effectColor = [UIColor colorWithWhite:b alpha:EffectColorAlpha];
         }
-        
     } else {
-        
         CGFloat r, g, b;
         
         if ([tintColor getRed:&r green:&g blue:&b alpha:NULL]) {
             effectColor = [UIColor colorWithRed:r green:g blue:b alpha:EffectColorAlpha];
         }
-        
     }
     
     return [self blurryImage:image blurRadius:10 tintColor:effectColor saturationDeltaFactor:1.0 maskImage:nil];

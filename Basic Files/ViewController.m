@@ -23,9 +23,9 @@
     UIImage *image = [UIImage imageNamed:@"BeauGir.jpg"];
     self.imgView.image = image;
     
-    UILongPressGestureRecognizer *gr_longPress = [[UILongPressGestureRecognizer alloc] init];
-    [gr_longPress addTarget:self action:@selector(changeEffect:)];
-    [self.imgView addGestureRecognizer:gr_longPress];
+    UILongPressGestureRecognizer *longPressGR = [[UILongPressGestureRecognizer alloc] init];
+    [longPressGR addTarget:self action:@selector(changeEffect:)];
+    [self.imgView addGestureRecognizer:longPressGR];
 }
 
 - (void)changeEffect:(UILongPressGestureRecognizer *)recognizer {
@@ -48,7 +48,7 @@
     
     if (i == 0) {
         self.imgView.image = [self.blurEffect blurryImage:image style:DYFBlurEffectLight];
-    } else if (i == 1){
+    } else if (i == 1) {
         self.imgView.image = [self.blurEffect blurryImage:image tintColor:[UIColor colorWithRed:40/255.0 green:40/255.0 blue:40/255.0 alpha:1]];
     } else if (i == 2) {
         self.imgView.image = image;
@@ -59,9 +59,9 @@
         blurView.userInteractionEnabled = YES;
         [self.view addSubview:blurView];
         
-        UILongPressGestureRecognizer *gr_longPress = [[UILongPressGestureRecognizer alloc] init];
-        [gr_longPress addTarget:self action:@selector(changeEffect:)];
-        [blurView addGestureRecognizer:gr_longPress];
+        UILongPressGestureRecognizer *longPressGR = [[UILongPressGestureRecognizer alloc] init];
+        [longPressGR addTarget:self action:@selector(changeEffect:)];
+        [blurView addGestureRecognizer:longPressGR];
     } else {
         self.imgView.image = [self.blurEffect coreImage:image blurRadius:10];
     }
