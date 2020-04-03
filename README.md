@@ -2,7 +2,7 @@
 <img src="https://github.com/dgynfi/DYFBlurEffect/raw/master/images/DYFBlurEffect.png" width="90%">
 </div>
 
-[如果你觉得能帮助到你，请给一颗小星星。谢谢！(If you think it can help you, please give it a star. Thanks!)](https://github.com/dgynfi/DYFBlurEffect)
+[如果此项目能帮助到你，就请你给一颗星。谢谢！(If this project can help you, please give it a star. Thanks!)](https://github.com/dgynfi/DYFBlurEffect)
 
 [![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](LICENSE)&nbsp;
 [![CocoaPods](http://img.shields.io/cocoapods/v/DYFBlurEffect.svg?style=flat)](http://cocoapods.org/pods/DYFBlurEffect)&nbsp;
@@ -10,25 +10,23 @@
 
 ## DYFBlurEffect
 
-&emsp; 一行代码实现图像模糊化，并支持系统UIVisualEffectView。(An Image blurring is achieved with one line of code and the UIVisualEffectView of the iOS system is supported.)
+一行代码实现图像模糊化，并支持系统UIVisualEffectView。(An Image blurring is achieved with one line of code and the UIVisualEffectView of the iOS system is supported.)
 
-## 技术交流群(群号:155353383) 
-
-- 欢迎加入技术交流群，一起探讨技术问题。
+## Group (ID:614799921)
 
 <div align=left>
-&emsp; <img src="https://github.com/dgynfi/DYFBlurEffect/raw/master/images/qq155353383.jpg" width="20%">
+&emsp; <img src="https://github.com/dgynfi/DYFBlurEffect/raw/master/images/g614799921.jpg" width="30%">
 </div>
 
 ## 安装
 
-- 支持通过 CocoaPods 安装。
+Using [CocoaPods](https://cocoapods.org):
 
 ```pod install
 pod 'DYFBlurEffect', '~> 2.0.0'
 ```
 
-## 效果图
+## Preview
 
 <div align=left>
 &emsp; <img src="https://github.com/dgynfi/DYFBlurEffect/raw/master/images/BlurEffectPreview.gif" width="40%" />
@@ -81,7 +79,6 @@ blurView.frame = self.imgView.bounds;
  self.imgView.image = [self.blurEffect coreImage:image blurRadius:10];
 ```
 
-## Sample Codes
+## Code Sample
 
-- [Sample Codes Gateway](https://github.com/dgynfi/DYFBlurEffect/blob/master/Basic%20Files/ViewController.m)
-
+- [Code Sample Portal](https://github.com/dgynfi/DYFBlurEffect/blob/master/Basic%20Files/ViewController.m)
