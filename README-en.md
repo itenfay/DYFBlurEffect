@@ -5,7 +5,7 @@
 
 ## [Chinese Document](https://github.com/dgynfi/DYFBlurEffect)
 
-If this project can help you, please give it [a star](https://github.com/dgynfi/DYFBlurEffect). Thanks!
+If this project can help you, please give it [a star](https://github.com/dgynfi/DYFBlurEffect/blob/master/README-en.md). Thanks!
 
 
 ## DYFBlurEffect
