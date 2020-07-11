@@ -2,10 +2,10 @@
 Pod::Spec.new do |s|
 
   s.name         = "DYFBlurEffect"
-  s.version      = "2.0.0"
-  s.summary      = "An Image blurring is achieved with one line of code."
+  s.version      = "2.0.1"
+  s.summary      = "Realizes blurred image and supports UIVisualEffectView."
   s.description  = <<-DESC
-	An Image blurring is achieved with one line of code and the UIVisualEffectView of the iOS system is supported.
+	We can use `DYFBlurEffect` to quickly realize blurred image, and support `UIVisualEffectView` in iOS.
                    DESC
 
   s.homepage     = "https://github.com/dgynfi/DYFBlurEffect"
