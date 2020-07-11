@@ -1,8 +1,3 @@
-<div align=center>
-<img src="https://github.com/dgynfi/DYFBlurEffect/raw/master/images/DYFBlurEffect.png" width="90%">
-</div>
-
-
 ## [英文文档（English Document）](README-en.md)
 
 如果此项目能帮助到你，就请你给[一颗星](https://github.com/dgynfi/DYFBlurEffect)。谢谢！
@@ -90,5 +85,5 @@ blurView.frame = self.imgView.bounds;
  
 ## 示例
 
-如需了解更多，请到 [这里](https://github.com/dgynfi/DYFBlurEffect/blob/master/Basic%20Files/ViewController.m).
+如需了解更多，请到[这里](https://github.com/dgynfi/DYFBlurEffect/blob/master/Basic%20Files/ViewController.m)。
 
