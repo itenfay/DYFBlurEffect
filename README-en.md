@@ -1,8 +1,3 @@
-<div align=center>
-<img src="https://github.com/dgynfi/DYFBlurEffect/raw/master/images/DYFBlurEffect.png" width="90%">
-</div>
-
-
 ## [Chinese Document](https://github.com/dgynfi/DYFBlurEffect)
 
 If this project can help you, please give it [a star](https://github.com/dgynfi/DYFBlurEffect/blob/master/README-en.md). Thanks!
