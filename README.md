@@ -2,39 +2,47 @@
 <img src="https://github.com/dgynfi/DYFBlurEffect/raw/master/images/DYFBlurEffect.png" width="90%">
 </div>
 
-如果此项目能帮助到你，就请你给[一颗星](https://github.com/dgynfi/DYFBlurEffect)。谢谢！(If this project can help you, please give it [a star](https://github.com/dgynfi/DYFBlurEffect). Thanks!)
+
+## [英文文档（English Document）](README-en.md)
+
+如果此项目能帮助到你，就请你给[一颗星](https://github.com/dgynfi/DYFBlurEffect)。谢谢！
+
+
+## DYFBlurEffect
+
+我们使用 `DYFBlurEffect` 可以快速实现模糊图像，并支持系统`UIVisualEffectView`。
 
 [![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](LICENSE)&nbsp;
 [![CocoaPods](http://img.shields.io/cocoapods/v/DYFBlurEffect.svg?style=flat)](http://cocoapods.org/pods/DYFBlurEffect)&nbsp;
 ![CocoaPods](http://img.shields.io/cocoapods/p/DYFBlurEffect.svg?style=flat)&nbsp;
 
-## DYFBlurEffect
 
-一行代码实现图像模糊化，并支持系统UIVisualEffectView。
-
-## Group (ID:614799921)
+## QQ群 (ID:614799921)
 
 <div align=left>
 &emsp; <img src="https://github.com/dgynfi/DYFBlurEffect/raw/master/images/g614799921.jpg" width="30%">
 </div>
 
-## Installation
 
-Using [CocoaPods](https://cocoapods.org):
+## 安装
+
+使用 [CocoaPods](https://cocoapods.org):
 
 ```pod install
-pod 'DYFBlurEffect', '~> 2.0.0'
+pod 'DYFBlurEffect', '~> 2.0.1'
 ```
 
-## Preview
+
+## 预览
 
 <div align=left>
 &emsp; <img src="https://github.com/dgynfi/DYFBlurEffect/raw/master/images/BlurEffectPreview.gif" width="40%" />
 </div>
 
-## Usage
 
-- Instantiation
+## 使用
+
+- 实例化
 
 ```
 // Lazy load
@@ -46,7 +54,7 @@ pod 'DYFBlurEffect', '~> 2.0.0'
 }
 ```
 
-- CoreGraphics and vImage
+- 使用 CoreGraphics and vImage
     
 ```
 // Uses a `DYFBlurEffectStyle` style.
@@ -63,7 +71,7 @@ Blur out an image with an original image, a blur radius, tint with a color, a sa
 - (UIImage *)blurryImage:(UIImage *)image blurRadius:(CGFloat)blurRadius tintColor:(UIColor *)tintColor saturationDeltaFactor:(CGFloat)saturationDeltaFactor maskImage:(UIImage *)maskImage;
 ```
 
-- UIVisualEffectView(Available iOS 8.0 or later)
+- 使用 UIVisualEffectView (Available iOS 8.0 or later)
 
 ```
 UIVisualEffectView *blurView = [self.blurEffect blurViewWithStyle:UIBlurEffectStyleLight];
@@ -73,13 +81,14 @@ blurView.frame = self.imgView.bounds;
 [self.view addSubview:blurView];
 ```
 
-- CoreImage
+- 使用 CoreImage
 
 ```
  self.imgView.image = [self.blurEffect coreImage:image blurRadius:10];
 ```
 
-## Sample
+ 
+## 示例
 
-To learn more, plaease go [here](https://github.com/dgynfi/DYFBlurEffect/blob/master/Basic%20Files/ViewController.m).
+如需了解更多，请到 [这里](https://github.com/dgynfi/DYFBlurEffect/blob/master/Basic%20Files/ViewController.m).
 
