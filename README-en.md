@@ -1,7 +1,6 @@
-## [Chinese Document](https://github.com/dgynfi/DYFBlurEffect)
+## [Chinese Document](https://github.com/chenxing640/DYFBlurEffect)
 
-If this project can help you, please give it [a star](https://github.com/dgynfi/DYFBlurEffect/blob/master/README-en.md). Thanks!
-
+If this project can help you, please give it [a star](https://github.com/chenxing640/DYFBlurEffect/blob/master/README-en.md). Thanks!
 
 ## DYFBlurEffect
 
@@ -11,13 +10,11 @@ We can use `DYFBlurEffect` to quickly realize blurred image, and support `UIVisu
 [![CocoaPods](http://img.shields.io/cocoapods/v/DYFBlurEffect.svg?style=flat)](http://cocoapods.org/pods/DYFBlurEffect)&nbsp;
 ![CocoaPods](http://img.shields.io/cocoapods/p/DYFBlurEffect.svg?style=flat)&nbsp;
 
-
 ## Group (ID:614799921)
 
 <div align=left> 
-&emsp; <img src="https://github.com/dgynfi/DYFBlurEffect/raw/master/images/g614799921.jpg" width="30%">
+&emsp; <img src="https://github.com/chenxing640/DYFBlurEffect/raw/master/images/g614799921.jpg" width="30%">
 </div>
-
 
 ## Installation
 
@@ -27,13 +24,11 @@ Using [CocoaPods](https://cocoapods.org):
 pod 'DYFBlurEffect', '~> 2.0.1'
 ```
 
-
 ## Preview
 
 <div align=left>
-&emsp; <img src="https://github.com/dgynfi/DYFBlurEffect/raw/master/images/BlurEffectPreview.gif" width="40%" />
+&emsp; <img src="https://github.com/chenxing640/DYFBlurEffect/raw/master/images/BlurEffectPreview.gif" width="40%" />
 </div>
-
 
 ## Usage
 
@@ -82,8 +77,6 @@ blurView.frame = self.imgView.bounds;
  self.imgView.image = [self.blurEffect coreImage:image blurRadius:10];
 ```
 
-
 ## Sample
 
-To learn more, plaease go [here](https://github.com/dgynfi/DYFBlurEffect/blob/master/Basic%20Files/ViewController.m).
-
+To learn more, plaease go [here](https://github.com/chenxing640/DYFBlurEffect/blob/master/Basic%20Files/ViewController.m).
