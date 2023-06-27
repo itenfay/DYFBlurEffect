@@ -1,7 +1,6 @@
 ## [英文文档（English Document）](README-en.md)
 
-如果此项目能帮助到你，就请你给[一颗星](https://github.com/dgynfi/DYFBlurEffect)。谢谢！
-
+如果此项目能帮助到你，就请你给[一颗星](https://github.com/chenxing640/DYFBlurEffect)。谢谢！
 
 ## DYFBlurEffect
 
@@ -11,13 +10,11 @@
 [![CocoaPods](http://img.shields.io/cocoapods/v/DYFBlurEffect.svg?style=flat)](http://cocoapods.org/pods/DYFBlurEffect)&nbsp;
 ![CocoaPods](http://img.shields.io/cocoapods/p/DYFBlurEffect.svg?style=flat)&nbsp;
 
-
 ## QQ群 (ID:614799921)
 
 <div align=left>
-&emsp; <img src="https://github.com/dgynfi/DYFBlurEffect/raw/master/images/g614799921.jpg" width="30%">
+&emsp; <img src="https://github.com/chenxing640/DYFBlurEffect/raw/master/images/g614799921.jpg" width="30%">
 </div>
-
 
 ## 安装
 
@@ -27,13 +24,11 @@
 pod 'DYFBlurEffect', '~> 2.0.1'
 ```
 
-
 ## 预览
 
 <div align=left>
-&emsp; <img src="https://github.com/dgynfi/DYFBlurEffect/raw/master/images/BlurEffectPreview.gif" width="40%" />
+&emsp; <img src="https://github.com/chenxing640/DYFBlurEffect/raw/master/images/BlurEffectPreview.gif" width="40%" />
 </div>
-
 
 ## 使用
 
@@ -82,8 +77,6 @@ blurView.frame = self.imgView.bounds;
  self.imgView.image = [self.blurEffect coreImage:image blurRadius:10];
 ```
 
- 
 ## 示例
 
-如需了解更多，请到[这里](https://github.com/dgynfi/DYFBlurEffect/blob/master/Basic%20Files/ViewController.m)。
-
+如需了解更多，请到[这里](https://github.com/chenxing640/DYFBlurEffect/blob/master/Basic%20Files/ViewController.m)。
