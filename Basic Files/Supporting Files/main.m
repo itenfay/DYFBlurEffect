@@ -1,8 +1,8 @@
 //
 //  main.m
 //
-//  Created by dyf on 2017/1/16.
-//  Copyright © 2017 dyf. All rights reserved.
+//  Created by Tenfay on 2017/1/16.
+//  Copyright © 2017 Tenfay. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

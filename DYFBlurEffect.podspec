@@ -1,18 +1,16 @@
 
 Pod::Spec.new do |s|
-
   s.name         = "DYFBlurEffect"
-  s.version      = "2.0.1"
+  s.version      = "2.1.0"
   s.summary      = "Realizes blurred image and supports UIVisualEffectView."
   s.description  = <<-DESC
-	We can use `DYFBlurEffect` to quickly realize blurred image, and support `UIVisualEffectView` in iOS.
-                   DESC
+  We can use `DYFBlurEffect` to quickly realize blurred image, and support `UIVisualEffectView` in iOS.
+  DESC
 
-  s.homepage     = "https://github.com/dgynfi/DYFBlurEffect"
+  s.homepage     = "https://github.com/itenfay/DYFBlurEffect"
 
   s.license      = { :type => "MIT", :file => "LICENSE" }
-
-  s.author       = { "dyf" => "vinphy.teng@foxmail.com" }
+  s.author       = { "Tenfay" => "hansen981@126.com" }
 
   s.platform     = :ios
   s.ios.deployment_target 	= "8.0"
@@ -20,7 +18,7 @@ Pod::Spec.new do |s|
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target 	= "9.0"
 
-  s.source       = { :git => "https://github.com/dgynfi/DYFBlurEffect.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/itenfay/DYFBlurEffect.git", :tag => s.version.to_s }
 
   s.source_files  = "Classes/**/*.{h,m}"
   s.public_header_files = "Classes/**/*.h"
@@ -35,5 +33,4 @@ Pod::Spec.new do |s|
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
-
 end

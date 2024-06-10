@@ -1,6 +1,6 @@
-## [Chinese Document](https://github.com/chenxing640/DYFBlurEffect)
+[中文版](README.md) | **English Version**
 
-If this project can help you, please give it [a star](https://github.com/chenxing640/DYFBlurEffect/blob/master/README-en.md). Thanks!
+If this can help you, please give it a [star](https://github.com/itenfay/DYFBlurEffect), Thanks!
 
 ## DYFBlurEffect
 
@@ -13,21 +13,27 @@ We can use `DYFBlurEffect` to quickly realize blurred image, and support `UIVisu
 ## Group (ID:614799921)
 
 <div align=left> 
-&emsp; <img src="https://github.com/chenxing640/DYFBlurEffect/raw/master/images/g614799921.jpg" width="30%">
+&emsp; <img src="https://github.com/itenfay/DYFBlurEffect/raw/master/images/g614799921.jpg" width="30%">
 </div>
 
 ## Installation
 
 Using [CocoaPods](https://cocoapods.org):
 
-```pod install
-pod 'DYFBlurEffect', '~> 2.0.1'
+```
+pod 'DYFBlurEffect'
+```
+
+Or
+
+```
+pod 'DYFBlurEffect', '~> 2.1.0'
 ```
 
 ## Preview
 
 <div align=left>
-&emsp; <img src="https://github.com/chenxing640/DYFBlurEffect/raw/master/images/BlurEffectPreview.gif" width="40%" />
+&emsp; <img src="https://github.com/itenfay/DYFBlurEffect/raw/master/images/BlurEffectPreview.gif" width="40%" />
 </div>
 
 ## Usage
@@ -79,4 +85,4 @@ blurView.frame = self.imgView.bounds;
 
 ## Sample
 
-To learn more, plaease go [here](https://github.com/chenxing640/DYFBlurEffect/blob/master/Basic%20Files/ViewController.m).
+To learn more, plaease go [here](https://github.com/itenfay/DYFBlurEffect/blob/master/Basic%20Files/ViewController.m).

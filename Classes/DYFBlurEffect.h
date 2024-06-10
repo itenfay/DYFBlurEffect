@@ -1,8 +1,8 @@
 //
 //  DYFBlurEffect.h
 //
-//  Created by dyf on 2017/01/16.
-//  Copyright © 2017 dyf.
+//  Created by Tenfay on 2017/01/16.
+//  Copyright © 2017 Tenfay.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal

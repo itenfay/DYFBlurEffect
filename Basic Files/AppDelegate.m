@@ -1,8 +1,8 @@
 //
 //  AppDelegate.m
 //
-//  Created by dyf on 2017/1/16.
-//  Copyright © 2017 dyf. All rights reserved.
+//  Created by Tenfay on 2017/1/16.
+//  Copyright © 2017 Tenfay. All rights reserved.
 //
 
 #import "AppDelegate.h"
@@ -15,9 +15,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-	// Override point for customization after application launch.
-    sleep(2);
-	return YES;
+    return YES;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

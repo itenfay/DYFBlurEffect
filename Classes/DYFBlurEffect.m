@@ -1,8 +1,8 @@
 //
 //  DYFBlurEffect.m
 //
-//  Created by dyf on 2017/01/16.
-//  Copyright © 2017 dyf.
+//  Created by Tenfay on 2017/01/16.
+//  Copyright © 2017 Tenfay.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -48,19 +48,16 @@
             tintColor  = [UIColor colorWithWhite:1.0 alpha:0.3];
             break;
         }
-            
         case DYFBlurEffectExtraLight: {
             blurRadius = 20.f;
             tintColor  = [UIColor colorWithWhite:0.97 alpha:0.82];
             break;
         }
-            
         case DYFBlurEffectDark: {
             blurRadius = 20.f;
             tintColor  = [UIColor colorWithWhite:0.11 alpha:0];
             break;
         }
-            
         default:
             break;
     }
