@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "DYFBlurEffect"
-  s.version      = "2.1.0"
+  s.version      = "2.1.1"
   s.summary      = "Realizes blurred image and supports UIVisualEffectView."
   s.description  = <<-DESC
   We can use `DYFBlurEffect` to quickly realize blurred image, and support `UIVisualEffectView` in iOS.
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/itenfay/DYFBlurEffect"
 
   s.license      = { :type => "MIT", :file => "LICENSE" }
-  s.author       = { "Tenfay" => "hansen981@126.com" }
+  s.author       = { "Tenfay" => "itenfay@163.com" }
 
   s.platform     = :ios
   s.ios.deployment_target 	= "8.0"

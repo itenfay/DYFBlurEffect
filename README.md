@@ -27,7 +27,7 @@ pod 'DYFBlurEffect'
 Or
 
 ```
-pod 'DYFBlurEffect', '~> 2.1.0'
+pod 'DYFBlurEffect', '~> 2.1.1'
 ```
 
 ## 预览
